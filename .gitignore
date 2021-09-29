@@ -1,0 +1,5 @@
+*.out
+*.o
+sem4/gcc-linaro-7.5.0-2019.12-x86_64_aarch64-linux-gnu/
+sem4/remote-debug-c/.gdb_history
+
