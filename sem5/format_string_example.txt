@@ -1,0 +1,2 @@
+format_printf_str:
+        .string "%d"
