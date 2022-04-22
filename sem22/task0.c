@@ -33,8 +33,7 @@ int send_query(char* host, char* path) {
            "\n",
            path, host);
 
-  size_t query_size =
-      strlen(query) < sizeof(query) ? strlen(query) : sizeof(query);
+  size_t query_size = strlen(query);
 
   conditional_handle_error(write(sock, query, query_size) == -1, "write error");
 
