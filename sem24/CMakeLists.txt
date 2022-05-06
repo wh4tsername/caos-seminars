@@ -9,6 +9,6 @@ set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMake" ${CMAKE_MODULE_PATH})
 find_package(FUSE REQUIRED)
 
 include_directories(${FUSE_INCLUDE_DIR})
-add_executable(main main2.c)
+add_executable(main task0.c)
 target_link_libraries(main ${FUSE_LIBRARIES})
 
